@@ -1,5 +1,5 @@
 Vamos utilizar o PRISMA.
--> npm install prisma @prima/client
+-> npm install prisma @prisma/client
 
 Depois de instalar, vamos exercutar o prisma
 -> npx prisma init
