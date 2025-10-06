@@ -1,0 +1,7 @@
+Vamos utilizar o PRISMA.
+-> npm install prisma @prima/client
+
+Depois de instalar, vamos exercutar o prisma
+-> npx prisma init
+
+Proxima etapa é configurar a conexão com o PostgreSQL no arquivo .env
