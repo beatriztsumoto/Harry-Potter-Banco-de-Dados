@@ -1,0 +1,19 @@
+{
+  "name": "harrypotterbd",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "dev": "cls && nodemon server.js"
+  },
+  "keywords": ["Harry Potter","nodemon","Banco de Dados"],
+  "author": "Beatriz Tsumoto",
+  "license": "MIT",
+  "description": "Conexão de Bando de Dados com Back-End",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
