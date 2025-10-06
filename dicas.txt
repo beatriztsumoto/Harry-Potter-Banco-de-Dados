@@ -5,3 +5,8 @@ Depois de instalar, vamos exercutar o prisma
 -> npx prisma init
 
 Proxima etapa é configurar a conexão com o PostgreSQL no arquivo .env
+
+
+DATABASE_URL="postgresql://postgres:amods@localhost:7777/hogwarts_db"
+
+npx prisma migrate dev --name init
