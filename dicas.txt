@@ -14,3 +14,11 @@ Depois de criar o model, precisamos criar a migrate/versao do banco de dados
 npx prisma migrate dev --name init
 
 npx prisma generate
+
+O que fazer quando eu clonar um projeto?
+
+1 - Instale as dependências -> npm install
+2 - Crie o arquivo .env (se não existir) -> adicione a variável do banco
+3 - Crie o banco e aplique o schema -> npx prisma migrate dev
+4 - Veja o banco -> npx prisma studio
+5 - Execute o projeto -> npm run dev
